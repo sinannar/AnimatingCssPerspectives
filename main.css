@@ -63,12 +63,12 @@ ul li:nth-child(1)
 
 ul li:nth-child(2)
 {
-    background: #bfe8fc;
+    background: #faffc8;
     z-index: 1;
 }
 
 ul li:nth-child(3)
 {
-    background: #bfe8fc;
+    background: rgb(242, 228, 255);
     top: 105px;
 }
