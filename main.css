@@ -30,3 +30,26 @@ body{
     clip-path: polygon(72% 80%, 100% 30%, 100% 100%, 0% 100%);
 }
 
+.container{
+    display: grid;
+    grid-template-columns: 50% auto;
+    height: auto;
+    align-self: center;
+    margin: 0 50px;
+}
+
+ul{
+    list-style-type:none;
+    perspective: 1000px; 
+}
+
+ul li{
+    display: grid;
+    grid-template-columns:20% auto;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    transform: rotateY(-30deg) rotateX(15deg);
+    position: absolute;
+    border-bottom: 4px solid rgba(0, 0, 0, .2);
+}
