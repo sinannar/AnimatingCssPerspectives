@@ -53,3 +53,22 @@ ul li{
     position: absolute;
     border-bottom: 4px solid rgba(0, 0, 0, .2);
 }
+
+ul li:nth-child(1)
+{
+    background: #bfe8fc;
+    top: -105px;
+    z-index: 2;
+}
+
+ul li:nth-child(2)
+{
+    background: #bfe8fc;
+    z-index: 1;
+}
+
+ul li:nth-child(3)
+{
+    background: #bfe8fc;
+    top: 105px;
+}
