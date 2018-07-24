@@ -74,6 +74,11 @@ ul li:nth-child(3)
     top: 105px;
 }
 
+ul li:hover{
+    transform: rotateY(-22deg) rotateX(7deg) scale(1.03);
+    
+}
+
 img{
     width: 85px;
 }
