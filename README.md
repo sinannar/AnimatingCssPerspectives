@@ -6,3 +6,4 @@ https://bennettfeely.com/clippy/
 
 https://worldvectorlogo.com/
 
+https://caniuse.com/#search=mix-blend-mode

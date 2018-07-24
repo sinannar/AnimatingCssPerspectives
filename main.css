@@ -52,6 +52,7 @@ ul li{
     transform: rotateY(-30deg) rotateX(15deg);
     position: absolute;
     border-bottom: 4px solid rgba(0, 0, 0, .2);
+    mix-blend-mode: multiply;
 }
 
 ul li:nth-child(1)
